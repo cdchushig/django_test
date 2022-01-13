@@ -25,8 +25,7 @@ SECRET_KEY = 'django-insecure-c-m^gq@$9vi)to3heh=&+prma2ddz=u%ccqpk5qq&*fq=rr^!5
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = os.environ.get('DIAGRAM_GURU_ALLOWED_HOSTS').split(",")
-
+ALLOWED_HOSTS = [localhost, 127.0.0.1, 0.0.0.0]
 
 # Application definition
 
